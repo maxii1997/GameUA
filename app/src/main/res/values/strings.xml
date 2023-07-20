@@ -1,12 +1,33 @@
 <resources>
-    <string name="app_name">Juego</string>
+    <string name="app_name">JuegoUA</string>
+    //SplashActivity
+    <string name="s_text1">Diseñado por LircayHub</string>
+    <string name="s_text2">Desarrollado por Maximiliano Solis</string>
+    //CarreraModeActivity (MainActivity)
+    <string name="c_text1">Puntaje: 0</string>
+    <string name="c_text2">Nivel: 1</string>
+    <string name="c_text3">Vidas: 3</string>
+    <string name="c_text4">En el modo carrera tienes tres vidas y 10 segundos por instrucción. Pierdes una vida por cada error o instrucción no realizada.</string>
+    //LegendaryModeActivity
+    <string name="l_text1">Puntaje: 0</string>
+    <string name="l_text2">Nivel: 1</string>
+    <string name="l_text3">El modo legendario es más difícil. Tienes solo 3 segundos para realizar la accion. Supera el máximo puntaje a máxima velocidad.</string>
+    //MenuActivity
+    <string name="m_text1">Modo Carrera</string>
+    <string name="m_text2">Modo Legendario</string>
+    <string name="m_text3">Preferencias</string>
+    //PreferencesActivity
+    <string name="p_text1">Preferencias</string>
+    <string name="p_text2">Cantidad de instrucciones</string>
+    <string name="p_text3">Velocidad inicial</string>
+
     <string name="instruction_press">Presionar</string>
     <string name="instruction_swipe">Deslizar</string>
     <string name="instruction_shake">Agitar</string>
-    <string name="level">Level: %1$d</string>
-    <string name="score">Score: %1$d</string>
-    <string name="game_over">Game Over</string>
-    <string name="start">Start</string>
+    <string name="level">Nivel: %1$d</string>
+    <string name="score">Puntaje: %1$d</string>
+    <string name="game_over">Fin del juego</string>
+    <string name="start">Iniciar</string>
 
 </resources>
 

@@ -29,21 +29,6 @@
         android:theme="@style/Theme.Juego"
         tools:targetApi="31">
         <activity
-            android:name=".LegendaryModeActivity"
-            android:exported="false" />
-        <activity
-            android:name=".PreferencesActivity"
-            android:exported="false" />
-        <activity
-            android:name=".MenuActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity
             android:name=".SplashActivity"
             android:exported="true">
             <intent-filter>
@@ -53,10 +38,19 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".MenuActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:configChanges="orientation|screenSize"
             android:exported="true">
         </activity>
+        <activity
+            android:name=".LegendaryModeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PreferencesActivity"
+            android:exported="false" />
     </application>
 
 </manifest>

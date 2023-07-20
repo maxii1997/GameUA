@@ -22,10 +22,10 @@
         android:id="@+id/scoreTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="18sp"
-        android:text="Score: 0"
         android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true" />
+        android:layout_alignParentTop="true"
+        android:text="@string/l_text1"
+        android:textSize="18sp" />
 
     <TextView
         android:id="@+id/livesTextView"
@@ -47,17 +47,17 @@
         android:layout_alignParentRight="false"
         android:layout_alignParentBottom="false"
         android:layout_centerHorizontal="false"
-        android:text="Level: 1"
+        android:text="@string/l_text2"
         android:textSize="18sp" />
 
     <TextView
         android:id="@+id/bottomInstructionTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="16sp"
-        android:gravity="center_horizontal"
         android:layout_alignParentBottom="true"
-        android:text="El modo legendario es más difícil. Tienes solo 3 segundos para realizar la accion. Supera el máximo puntaje a máxima velocidad."
-        android:layout_marginBottom="16dp" />
+        android:layout_marginBottom="16dp"
+        android:gravity="center_horizontal"
+        android:text="@string/l_text3"
+        android:textSize="16sp" />
 
 </RelativeLayout>

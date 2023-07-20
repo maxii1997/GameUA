@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GameUA</string>
+    //SplashActivity
+    <string name="s_text1">Powered by LircayHub</string>
+    <string name="s_text2">Developer by Maximiliano Solis</string>
+    //CarreraModeActivity (MainActivity)
+    <string name="c_text1">Score: 0</string>
+    <string name="c_text2">Level: 1</string>
+    <string name="c_text3">Lives: 3</string>
+    <string name="c_text4">In career mode you have three lives and 10 seconds per instruction. You lose one life for each mistake or missed instruction.</string>
+    //LegendaryModeActivity
+    <string name="l_text1">Score: 0</string>
+    <string name="l_text2">Level: 1</string>
+    <string name="l_text3">The legendary mode is more difficult. You have only 3 seconds to perform the action. Beat the maximum score at maximum speed.</string>
+    //MenuActivity
+    <string name="m_text1">Career Mode</string>
+    <string name="m_text2">Legendary Mode</string>
+    <string name="m_text3">Preferences</string>
+    //PreferencesActivity
+    <string name="p_text1">Preferences</string>
+    <string name="p_text2">Number of instructions</string>
+    <string name="p_text3">Initial speed</string>
+
+    <string name="instruction_press">Tap</string>
+    <string name="instruction_swipe">Swipe</string>
+    <string name="instruction_shake">Shake</string>
+    <string name="level">Level: %1$d</string>
+    <string name="score">Score: %1$d</string>
+    <string name="game_over">Game Over</string>
+    <string name="start">Start</string>
+</resources>

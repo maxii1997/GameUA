@@ -4,13 +4,20 @@
     android:layout_height="match_parent"
     android:gravity="center">
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/ic_juegoua" />
+
     <TextView
         android:id="@+id/texto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:text="Powered by LircayHub"
+        android:layout_below="@id/imageView"
+        android:layout_centerInParent="true"
+        android:text="@string/s_text1"
         android:textColor="@color/black"
         android:textSize="24sp"
         android:textStyle="bold" />
@@ -21,7 +28,7 @@
         android:layout_below="@+id/texto"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp"
-        android:text="Developer by Maximiliano Solis"
+        android:text="@string/s_text2"
         android:textColor="@color/black" />
 
     <ProgressBar

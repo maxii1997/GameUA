@@ -9,14 +9,14 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Preferencias"
+        android:text="@string/p_text1"
         android:textSize="20sp"
         android:textStyle="bold" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Cantidad de instrucciones" />
+        android:text="@string/p_text2" />
 
     <EditText
         android:id="@+id/instructionCountEditText"
@@ -27,7 +27,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Velocidad inicial" />
+        android:text="@string/p_text3" />
 
     <EditText
         android:id="@+id/initialSpeedEditText"

@@ -14,7 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
-        android:text="Modo Carrera" />
+        android:text="@string/m_text1" />
 
     <Button
         android:id="@+id/btn_legendary_mode"
@@ -22,7 +22,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/btn_race_mode"
         android:layout_marginTop="16dp"
-        android:text="Modo Legendario" />
+        android:text="@string/m_text2" />
 
     <Button
         android:id="@+id/btn_preferences"
@@ -30,6 +30,6 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/btn_legendary_mode"
         android:layout_marginTop="16dp"
-        android:text="Preferencias" />
+        android:text="@string/m_text3" />
 
 </RelativeLayout>
